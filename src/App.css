@@ -57,3 +57,74 @@ nav {
   flex-grow: 0;
   margin: 0px 12px;
 }
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  /* position: absolute; */
+  width: 1440px;
+  height: 480px;
+  left: 0px;
+  top: 75px;
+}
+
+.hero-innards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px 24px;
+  position: static;
+  width: 1240px;
+  height: 120px;
+  left: 100px;
+  top: 180px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+
+.hero-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  position: static;
+  width: 120px;
+  height: 41px;
+  left: 24px;
+  top: 79px;
+  background: #5AC8FA;
+  color: #F7F7F7;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 0px;
+  border: #F7F7F7;
+}
+
+.hero-h3 {
+  position: static;
+  width: 1192px;
+  height: 67px;
+  left: 24px;
+  top: 0px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 67px;
+  display: flex;
+  align-items: center;
+  color: #F7F7F7;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 12px 0px;
+  }
