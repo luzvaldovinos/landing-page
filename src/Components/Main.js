@@ -1,8 +1,18 @@
 import React from "react"
+import AstronautDarkened from "../images/astronaut-darkened.png"
 
 function Main() {
   return(
-    <h1>test</h1>
+    <div className="hero">
+      <img
+            src={AstronautDarkened}
+            className="astronaut-image"
+            />
+      <span className="hero-innards">
+        <h3 className="hero-h3">Shoot for the Moon</h3>
+        <button className="hero-button">Learn More</button>
+      </span>
+    </div>
   )
 }
 
