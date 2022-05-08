@@ -1,9 +1,6 @@
-/* /* <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet"> */
 
 * {
-  overflow: hidden;
+
 }
 
 nav {
@@ -83,7 +80,7 @@ nav {
 }
 
 .astronaut-image {
-object-fit: cover;
+  object-fit: cover;
 }
 
 .hero-innards {
@@ -124,24 +121,24 @@ object-fit: cover;
 }
 
 .hero-h3 {
-  position: static;
-  width: 1192px;
-  height: 67px;
-  left: 24px;
-  top: 0px;
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 67px;
-  display: flex;
-  align-items: center;
-  color: #F7F7F7;
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
-  margin: 12px 0px;
+    position: static;
+    width: 1192px;
+    height: 67px;
+    left: 24px;
+    top: 0px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 67px;
+    display: flex;
+    align-items: center;
+    color: #F7F7F7;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 12px 0px;
   }
 
   .progress-section {
@@ -217,4 +214,103 @@ object-fit: cover;
     padding: 1%;
     border-radius: 15px;
     position: static;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* flex-wrap: nowrap; */
+    align-content: space-between;
+    align-items: center;
+    padding: 48px 24px;
+    position: static;
+    width: 365.33px;
+    height: 137px;
+    /* left: 850.66px; */
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.125);
+    flex: 0 24%;
+    order: 2;
+    flex-grow: 1;
+    margin: 2%;
+  }
+
+  .cards-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px 24px;
+    position: absolute;
+    width: 1240px;
+    height: 137px;
+    left: 100px;
+    top: 657px;
+  }
+
+  .card-title {
+    padding: 20px;
+
+  }
+
+  .grey-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px;
+    position: static;
+    width: 120px;
+    height: 41px;
+    left: 221.33px;
+    top: 48px;
+    background: #CCCCCC;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 10px;
+    color: #FFFFFF;
+    border: #FFFFFF;
+  }
+
+  .blue-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 40px;
+    position: static;
+    width: 120px;
+    height: 41px;
+    left: 221.33px;
+    top: 48px;
+    background: #5AC8FA;
+    border: #FFFFFF;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 10px;
+  }
+  .card-title {
+    position: static;
+    width: 125px;
+    height: 29px;
+    left: 24px;
+    top: 54px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #53575A;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
   }
