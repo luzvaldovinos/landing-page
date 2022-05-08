@@ -1,8 +1,21 @@
 import React from "react"
 
-function Cards() {
+function Cards(props) {
+  let completed
+  if (props.item.completed === true) {
+    completed = <button className="grey-button">Mark as Done</button>
+  } else if (props.item.completed === false) {
+    completed = <button className="blue-button">Done</button>
+  };
+
+
   return(
-    <h1>test</h1>
+    <div className="card">
+      <div className="card-title">
+        <span>{props.item.title}</span>
+      {completed && <div className="card-button-grey">{completed}</div>}
+      </div>
+    </div>
   )
 }
 
