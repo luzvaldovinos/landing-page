@@ -314,3 +314,12 @@ nav {
     flex-grow: 0;
     margin: 0px 10px;
   }
+
+  .footer {
+  position: absolute;
+  width: 1440px;
+  height: 53px;
+  left: 0px;
+  top: 1868px;
+  background: #555555;
+  }
