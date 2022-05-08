@@ -7,6 +7,7 @@ function Main() {
       <img
             src={AstronautDarkened}
             className="astronaut-image"
+            style={{ height: 480,  width: 1440}}
             />
       <span className="hero-innards">
         <h3 className="hero-h3">Shoot for the Moon</h3>
