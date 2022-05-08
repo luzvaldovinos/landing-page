@@ -2,7 +2,15 @@ import React from "react"
 
 function Progress() {
   return(
-    <h1>test</h1>
+    <div className="progress-section">
+      <p className="progress-p">40% Done</p>
+      {/* container */}
+      <div className="progress-container">
+      {/* skill */}
+        <div className="progress-amt"></div>
+      </div>
+
+    </div>
   )
 }
 
