@@ -1,7 +1,8 @@
 import React from "react"
 import RocketIcon from "../images/rocket-icon.svg"
 
-function Navbar() {
+
+function Navigation() {
   return(
     <nav>
       <span className="nav-menu">
@@ -9,6 +10,7 @@ function Navbar() {
           <img
             src={RocketIcon}
             className="rocket-icon"
+            alt="small rocket"
             />
           <p>Apollo</p>
         </span>
@@ -22,4 +24,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default Navigation

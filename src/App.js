@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./Components/Navbar";
+import Navigation from "./Components/Navigation";
 import Main from "./Components/Main";
 import Progress from "./Components/Progress";
 import Cards from "./Components/Cards";
@@ -18,7 +18,7 @@ function App() {
   })
   return (
     <div className="app-container">
-      <Navbar />
+      <Navigation />
       <Main />
       <Progress />
       <section className="cards-list">
