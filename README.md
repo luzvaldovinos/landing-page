@@ -6,7 +6,7 @@ The goal of this project is to replicate a landing page for a company called Apo
 
 This project was created using React
 
-### `npm start`
+## Usage
 
 After you clone the repository, you can run npm start in terminal to launch the server.
 
