@@ -1,7 +1,4 @@
 
-* {
-
-}
 
 nav {
   position: absolute;
@@ -12,7 +9,7 @@ nav {
   background-color: #5856D6;
 }
 
-.nav-menu {
+ .nav-menu {
   background-color: #5856D6;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   color: #F9F9F9;
@@ -23,7 +20,7 @@ nav {
   padding: 12px 24px;
   position: absolute;
   width: 1240px;
-  /* height: 75px; */
+  height: 75px;
   left: 100px;
   top: 0px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -32,6 +29,7 @@ nav {
 .rocket-icon {
   background-color:#5856D6;
   color: #F9F9F9;
+  padding-right: 8px;
 }
 
 .logo-wordmark {
@@ -207,7 +205,7 @@ nav {
 
   .progress-amt {
     background-color: #5856D6;
-    height: 24px;
+    height: 30px;
     left: 151px;
     width: 131px;
     top: 12px;
