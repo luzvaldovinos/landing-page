@@ -6,6 +6,7 @@ import Cards from "./Components/Cards";
 import Footer from "./Components/Footer";
 import './App.css';
 import data from "./data"
+import './index.css'
 
 function App() {
   const cards = data.map(item=> {

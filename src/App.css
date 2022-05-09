@@ -30,17 +30,26 @@ nav {
   background-color:#5856D6;
   color: #F9F9F9;
   padding-right: 8px;
-}
-
-.logo-wordmark {
-  position: static;
-  width: 180px;
+  /* position: absolute; */
+  width: 50px;
   height: 50px;
   left: 24px;
   top: 12.5px;
+}
+
+.logo-wordmark {
+  /* position: absolute; */
+  width: 118px;
+  height: 29px;
+  left: 86px;
+  top: 23px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
   display: flex;
-  flex-direction: row;
-  font-weight: bold;
+  align-items: center;
 }
 
 .nav-innards {
@@ -60,12 +69,18 @@ nav {
   margin: 0px 12px;
 }
 
+@media screen and (max-width: 768px) {
+  .nav-menu{
+    float: none;
+    width: 100%;
+  }
+}
+
 .hero {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* padding: 12px 24px; */
   left: 0px;
   top: 75px;
   width: 1440px;
@@ -139,6 +154,12 @@ nav {
     margin: 12px 0px;
   }
 
+  @media screen and (max-width: 768px) {
+    .hero{
+      width: 390px;
+    }
+  }
+
   .progress-section {
     display: flex;
     flex-direction: row;
@@ -151,22 +172,6 @@ nav {
     top: 579px;
   }
 
-  /* .progress-section {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 12px 0px;
-  position: static;
-  width: 478px;
-  height: 54px;
-  left: 738px;
-  top: 0px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 10px 0px;
-  } */ */
 
   .progress-p {
     position: static;
@@ -175,8 +180,6 @@ nav {
     left: 15px;
     top: 12px;
     font-family: 'Lato';
-    font-style: normal;
-    font-weight: 700;
     font-size: 24px;
     line-height: 29px;
     display: flex;
@@ -205,7 +208,7 @@ nav {
 
   .progress-amt {
     background-color: #5856D6;
-    height: 30px;
+    height: 25px;
     left: 151px;
     width: 131px;
     top: 12px;
@@ -214,6 +217,11 @@ nav {
     position: static;
   }
 
+  @media screen and (max-width: 768px) {
+    .progress-container{
+      left: 10px;
+    }
+  }
   .card {
     display: flex;
     flex-direction: row;
@@ -247,11 +255,6 @@ nav {
     height: 137px;
     left: 100px;
     top: 657px;
-  }
-
-  .card-title {
-    padding: 20px;
-
   }
 
   .grey-button {
@@ -300,8 +303,6 @@ nav {
     left: 24px;
     top: 54px;
     font-family: 'Lato';
-    font-style: normal;
-    font-weight: 700;
     font-size: 24px;
     line-height: 29px;
     display: flex;
@@ -313,6 +314,14 @@ nav {
     margin: 0px 10px;
   }
 
+  @media screen and (max-width: 768px) {
+    .cards-list {
+      width: 100%;
+      /* flex-direction: column; */
+      left: 50vw;
+    }
+  }
+
   .footer {
   position: absolute;
   width: 1440px;
@@ -320,4 +329,11 @@ nav {
   left: 0px;
   top: 1868px;
   background: #555555;
+  }
+
+  @media screen and (max-width: 768px) {
+    .footer{
+      top: 3800px;
+
+    }
   }
